@@ -24,18 +24,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   selectedStage:
-    stageName: Training Room (Prefab)
+    stageName: Classroom
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
-    prefab: {fileID: 100000, guid: 064338a39a43ad647989c96c321658a2, type: 3}
-    music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
+    screenshot: {fileID: 2800000, guid: f7b30ad5d13eb06408900b4cb3dbe205, type: 3}
+    prefab: {fileID: 5081652000408185614, guid: ed24ae06d79739945a265b1759970807,
+      type: 3}
+    music: {fileID: 8300000, guid: 84f4bc5b2a06ac54c99cf7dc749c3a15, type: 3}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -158913789952
+      _serializedValue: -171798691840
     _rightBoundary:
-      _serializedValue: 158913789952
+      _serializedValue: 171798691840
     position:
       x:
         _serializedValue: 0
@@ -839,7 +840,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -855,7 +856,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1000,7 +1001,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -1171,6 +1172,26 @@ MonoBehaviour:
       _serializedValue: -158913789952
     _rightBoundary:
       _serializedValue: 158913789952
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - stageName: Classroom
+    stageLoadingMethod: 0
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: f7b30ad5d13eb06408900b4cb3dbe205, type: 3}
+    prefab: {fileID: 5081652000408185614, guid: ed24ae06d79739945a265b1759970807,
+      type: 3}
+    music: {fileID: 8300000, guid: 84f4bc5b2a06ac54c99cf7dc749c3a15, type: 3}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -171798691840
+    _rightBoundary:
+      _serializedValue: 171798691840
     position:
       x:
         _serializedValue: 0
@@ -1553,19 +1574,19 @@ MonoBehaviour:
       overrideComboEfficiency: 1
       comboEfficiency: 1
       startupBehavior: 4
-    selectedDifficultyLevel: 2
+    selectedDifficultyLevel: 0
     selectedDifficulty:
-      difficultyLevel: 2
-      overrideTimeBetweenDecisions: 0
-      timeBetweenDecisions: 0
-      overrideTimeBetweenActions: 0
-      timeBetweenActions: 0.05
-      overrideAggressiveness: 0
-      aggressiveness: 0.4
+      difficultyLevel: 0
+      overrideTimeBetweenDecisions: 1
+      timeBetweenDecisions: 0.4
+      overrideTimeBetweenActions: 1
+      timeBetweenActions: 0.1
+      overrideAggressiveness: 1
+      aggressiveness: 0.1
       overrideRuleCompliance: 0
       ruleCompliance: 0.9
-      overrideComboEfficiency: 0
-      comboEfficiency: 1
+      overrideComboEfficiency: 1
+      comboEfficiency: 0.1
       startupBehavior: 3
   networkOptions:
     forceAnimationControl: 1
@@ -1615,10 +1636,10 @@ MonoBehaviour:
     inputMessageFrequency: 0
     synchronizationMessageFrequency: 0
     synchronizationAction: 0
-  music: 0
-  musicVolume: 0.29708967
-  soundfx: 0
-  soundfxVolume: 1
+  music: 1
+  musicVolume: 0.039203104
+  soundfx: 1
+  soundfxVolume: 0.04053382
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
