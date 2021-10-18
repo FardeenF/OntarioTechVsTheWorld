@@ -24,24 +24,24 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   selectedStage:
-    stageName: Classroom
+    stageName: Tank Stage
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: f7b30ad5d13eb06408900b4cb3dbe205, type: 3}
-    prefab: {fileID: 5081652000408185614, guid: ed24ae06d79739945a265b1759970807,
+    screenshot: {fileID: 2800000, guid: b240a326a6e442849a60a894626d434e, type: 3}
+    prefab: {fileID: 3389396943081994378, guid: 82376585b17e62d40a8764b24a078241,
       type: 3}
-    music: {fileID: 8300000, guid: 84f4bc5b2a06ac54c99cf7dc749c3a15, type: 3}
+    music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -171798691840
+      _serializedValue: -128849018880
     _rightBoundary:
-      _serializedValue: 171798691840
+      _serializedValue: 128849018880
     position:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 0
+        _serializedValue: 1675037184
       z:
         _serializedValue: 0
   gameName: 2D Fighter Example
@@ -856,7 +856,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1197,6 +1197,26 @@ MonoBehaviour:
         _serializedValue: 0
       y:
         _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - stageName: Tank Stage
+    stageLoadingMethod: 0
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: b240a326a6e442849a60a894626d434e, type: 3}
+    prefab: {fileID: 3389396943081994378, guid: 82376585b17e62d40a8764b24a078241,
+      type: 3}
+    music: {fileID: 0}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -128849018880
+    _rightBoundary:
+      _serializedValue: 128849018880
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 1675037184
       z:
         _serializedValue: 0
   characters:
