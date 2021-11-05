@@ -24,24 +24,23 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   selectedStage:
-    stageName: Tank Stage
+    stageName: Training Room (Prefab)
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: b240a326a6e442849a60a894626d434e, type: 3}
-    prefab: {fileID: 3389396943081994378, guid: 82376585b17e62d40a8764b24a078241,
-      type: 3}
-    music: {fileID: 0}
+    screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
+    prefab: {fileID: 100000, guid: 064338a39a43ad647989c96c321658a2, type: 3}
+    music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -128849018880
+      _serializedValue: -158913789952
     _rightBoundary:
-      _serializedValue: 128849018880
+      _serializedValue: 158913789952
     position:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 1675037184
+        _serializedValue: 0
       z:
         _serializedValue: 0
   gameName: 2D Fighter Example
@@ -178,11 +177,15 @@ MonoBehaviour:
           possibleStagesIndexes: 00000000
         showOpponentsInEditor: 1
       showStoryInEditor: 1
-    selectableCharactersInStoryMode: 010000000000000002000000030000000400000005000000
-    selectableCharactersInVersusMode: 000000000100000002000000030000000400000005000000
+    selectableCharactersInStoryMode: 01000000000000000200000003000000040000000500000006000000
+    selectableCharactersInVersusMode: 00000000010000000200000003000000040000000500000006000000
     characterStories:
-      _keys: 000000000100000002000000030000000400000005000000
+      _keys: 00000000010000000200000003000000040000000500000006000000
       _values:
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -219,7 +222,7 @@ MonoBehaviour:
   preloadHitEffects: 1
   warmAllShaders: 1
   _gravity:
-    _serializedValue: 1803886208
+    _serializedValue: 1374389504
   detect3D_Hits: 0
   lockZAxis: 1
   runInBackground: 1
@@ -637,7 +640,8 @@ MonoBehaviour:
   hitOptions:
     resetAnimationOnHit: 1
     weakHit:
-      hitParticle: {fileID: 194664, guid: b71a09eefd747c94787f6bc98149a21d, type: 3}
+      hitParticle: {fileID: 607445823426271821, guid: 6d1d00a90a710be47879b1820226fc33,
+        type: 3}
       killTime: 0.6
       hitSound: {fileID: 8300000, guid: 591a29322671baa479c0ef02c3a59bc8, type: 3}
       spawnPoint: 1
@@ -675,9 +679,10 @@ MonoBehaviour:
         _serializedValue: 3435973888
       _shakeCameraDensity:
         _serializedValue: 5153960960
-      editorToggle: 0
+      editorToggle: 1
     heavyHit:
-      hitParticle: {fileID: 184198, guid: 9c74fc77f6403ad4dba5b180423b14d1, type: 3}
+      hitParticle: {fileID: 8198242910435485394, guid: 3407c9f71838c2847b6460a0c7815d84,
+        type: 3}
       killTime: 0.6
       hitSound: {fileID: 8300000, guid: 2ffc3ee185d024740bdafff00742a713, type: 3}
       spawnPoint: 1
@@ -695,7 +700,7 @@ MonoBehaviour:
         _serializedValue: 5153960960
       _shakeCameraDensity:
         _serializedValue: 7730940928
-      editorToggle: 0
+      editorToggle: 1
     crumpleHit:
       hitParticle: {fileID: 1459499847029934, guid: e78df5c3545b7324991134d6f0eb6528,
         type: 3}
@@ -723,12 +728,12 @@ MonoBehaviour:
       hitSound: {fileID: 0}
       spawnPoint: 1
       _freezingTime:
-        _serializedValue: 0
+        _serializedValue: 429496736
       _animationSpeed:
         _serializedValue: 429496736
       autoHitStop: 1
       _hitStop:
-        _serializedValue: 0
+        _serializedValue: 429496736
       mirrorOn2PSide: 0
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
@@ -856,7 +861,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1226,6 +1231,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: ac6ffbd93fffdbb47a2a75f1f84ecd37, type: 2}
+  - {fileID: 0}
   teamModes:
   - modeName: Tag Battle (DBZF\Marvel) - 2D 3v3 Tag Team
     teams:
@@ -1425,7 +1431,7 @@ MonoBehaviour:
       charactersToggle: 0
     teamsToggle: 0
   debugOptions:
-    debugMode: 1
+    debugMode: 0
     emulateNetwork: 0
     trainingModeDebugger: 0
     preloadedObjects: 0
