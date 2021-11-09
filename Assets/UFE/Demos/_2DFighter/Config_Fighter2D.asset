@@ -683,7 +683,7 @@ MonoBehaviour:
         _serializedValue: 5153960960
       editorToggle: 1
     heavyHit:
-      hitParticle: {fileID: 8198242910435485394, guid: 3407c9f71838c2847b6460a0c7815d84,
+      hitParticle: {fileID: 607445823426271821, guid: 92f870ad9482dd94c81572bb5e435dd4,
         type: 3}
       killTime: 0.6
       hitSound: {fileID: 8300000, guid: 2ffc3ee185d024740bdafff00742a713, type: 3}
