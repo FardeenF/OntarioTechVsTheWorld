@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   selectedStage:
-    stageName: Training Room (Prefab)
+    stageName: Gym
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
-    prefab: {fileID: 100000, guid: 064338a39a43ad647989c96c321658a2, type: 3}
-    music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
+    screenshot: {fileID: 2800000, guid: 1deb0a491574ec7489d1ab8fe2cb17f0, type: 3}
+    prefab: {fileID: 349539645086936228, guid: 1f17ddad8cac35c448d35d72f0308edc, type: 3}
+    music: {fileID: 8300000, guid: baddf5ef0c4c86741829cb2f68a739dc, type: 3}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -158913789952
+      _serializedValue: -249108103168
     _rightBoundary:
-      _serializedValue: 158913789952
+      _serializedValue: 249108103168
     position:
       x:
         _serializedValue: 0
@@ -661,7 +661,8 @@ MonoBehaviour:
         _serializedValue: 3865470464
       editorToggle: 1
     mediumHit:
-      hitParticle: {fileID: 109728, guid: 9e918342d2a8f7842a691dff3f82f043, type: 3}
+      hitParticle: {fileID: 607445823426271821, guid: 417b053dc42188746a0271416e4881b6,
+        type: 3}
       killTime: 0.6
       hitSound: {fileID: 8300000, guid: 5b3bea24171c6534b81c07a298e51803, type: 3}
       spawnPoint: 1
@@ -681,7 +682,7 @@ MonoBehaviour:
         _serializedValue: 5153960960
       editorToggle: 1
     heavyHit:
-      hitParticle: {fileID: 8198242910435485394, guid: 3407c9f71838c2847b6460a0c7815d84,
+      hitParticle: {fileID: 607445823426271821, guid: fb26db91d3c5d5449b8e03ca004774ae,
         type: 3}
       killTime: 0.6
       hitSound: {fileID: 8300000, guid: 2ffc3ee185d024740bdafff00742a713, type: 3}
@@ -845,7 +846,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -861,7 +862,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1224,6 +1225,25 @@ MonoBehaviour:
         _serializedValue: 1675037184
       z:
         _serializedValue: 0
+  - stageName: Gym
+    stageLoadingMethod: 0
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: 1deb0a491574ec7489d1ab8fe2cb17f0, type: 3}
+    prefab: {fileID: 349539645086936228, guid: 1f17ddad8cac35c448d35d72f0308edc, type: 3}
+    music: {fileID: 8300000, guid: baddf5ef0c4c86741829cb2f68a739dc, type: 3}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -249108103168
+    _rightBoundary:
+      _serializedValue: 249108103168
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
   characters:
   - {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
   - {fileID: 11400000, guid: f0ed0d0ea0c86e24e8af99019d695928, type: 2}
@@ -1231,7 +1251,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: ac6ffbd93fffdbb47a2a75f1f84ecd37, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 521147896de211a4b8ca4c8516e6e0a9, type: 2}
   teamModes:
   - modeName: Tag Battle (DBZF\Marvel) - 2D 3v3 Tag Team
     teams:
