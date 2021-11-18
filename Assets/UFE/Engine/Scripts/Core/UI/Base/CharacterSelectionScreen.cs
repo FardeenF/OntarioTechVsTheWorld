@@ -28,13 +28,14 @@ public class CharacterSelectionScreen : UFEScreen {
 	}
 
 	public virtual void GoToPreviousScreen(){
-		this.closing = true;
+		//this.closing = true;
 
 		if (UFE.gameMode == GameMode.VersusMode){
 			UFE.DelaySynchronizedAction(this.GoToVersusModeScreen, 0);
 		}else if (UFE.gameMode == GameMode.NetworkGame){
 			UFE.DelaySynchronizedAction(this.DisconnectFromMatch, 0);
-		}else{
+		}
+        else{
 			UFE.DelaySynchronizedAction(this.GoToMainMenuScreen, 0);
 		}
 	}

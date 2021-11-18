@@ -3363,7 +3363,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 04000000
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   altInputs:
@@ -3775,13 +3775,13 @@ MonoBehaviour:
     activeFramesEnds: 16
     bodyPart: 2
     hitBoxDefinitionIndex: 0
-    shape: 1
+    shape: 0
     rect:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 10.48
-      height: 4.66
+      width: 2.57
+      height: 1.7
     _rect:
       _x:
         _serializedValue: 0
@@ -3789,7 +3789,7 @@ MonoBehaviour:
         _serializedValue: 0
       topRight:
         x:
-          _serializedValue: 45011255296
+          _serializedValue: 11038065664
         y:
           _serializedValue: 0
         z:
@@ -3803,30 +3803,30 @@ MonoBehaviour:
           _serializedValue: 0
       bottomRight:
         x:
-          _serializedValue: 45011255296
+          _serializedValue: 11038065664
         y:
-          _serializedValue: 20014546944
+          _serializedValue: 7301444608
         z:
           _serializedValue: 0
       bottomLeft:
         x:
           _serializedValue: 0
         y:
-          _serializedValue: 20014546944
+          _serializedValue: 7301444608
         z:
           _serializedValue: 0
       width:
-        _serializedValue: 45011255296
+        _serializedValue: 11038065664
       height:
-        _serializedValue: 20014546944
+        _serializedValue: 7301444608
       xMax:
-        _serializedValue: 45011255296
+        _serializedValue: 11038065664
       yMax:
-        _serializedValue: 20014546944
+        _serializedValue: 7301444608
     followXBounds: 0
     followYBounds: 0
     _radius:
-      _serializedValue: 2147483648
+      _serializedValue: 2877628160
     _offSet:
       x:
         _serializedValue: 0
@@ -3850,9 +3850,9 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 1202590848
+        _serializedValue: 14259291136
       y:
-        _serializedValue: 85899344
+        _serializedValue: 17394618368
       z:
         _serializedValue: 0
   lockOnTargets: []
