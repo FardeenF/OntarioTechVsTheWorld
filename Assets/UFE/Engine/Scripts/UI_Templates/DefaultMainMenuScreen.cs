@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
 using UFE3D;
+using System;
 
 public class DefaultMainMenuScreen : MainMenuScreen{
 	#region public instance fields
@@ -16,10 +17,12 @@ public class DefaultMainMenuScreen : MainMenuScreen{
 
 	public Button buttonNetwork;
 	public Button buttonBluetooth;
-	#endregion
 
-	#region public override methods
-	public override void DoFixedUpdate(
+    public static event Action userClick;
+    #endregion
+
+    #region public override methods
+    public override void DoFixedUpdate(
 		IDictionary<InputReferences, InputEvents> player1PreviousInputs,
 		IDictionary<InputReferences, InputEvents> player1CurrentInputs,
 		IDictionary<InputReferences, InputEvents> player2PreviousInputs,
@@ -62,5 +65,15 @@ public class DefaultMainMenuScreen : MainMenuScreen{
             buttonBluetooth.interactable = UFE.isBluetoothAddonInstalled;
         }
 	}
-	#endregion
+    #endregion
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            #region observer
+            userClick?.Invoke();
+            #endregion
+        }
+    }
 }
