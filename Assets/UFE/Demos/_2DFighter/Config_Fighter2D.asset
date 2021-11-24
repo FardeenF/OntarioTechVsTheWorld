@@ -24,18 +24,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   selectedStage:
-    stageName: Gym
+    stageName: Game Lab
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: 1deb0a491574ec7489d1ab8fe2cb17f0, type: 3}
-    prefab: {fileID: 349539645086936228, guid: 1f17ddad8cac35c448d35d72f0308edc, type: 3}
-    music: {fileID: 8300000, guid: baddf5ef0c4c86741829cb2f68a739dc, type: 3}
+    screenshot: {fileID: 2800000, guid: 1eeac2b1fb2981d42b331b04035cfd36, type: 3}
+    prefab: {fileID: 5060747415993636074, guid: 7b45560972d11464bbac611badc062d1,
+      type: 3}
+    music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -249108103168
+      _serializedValue: -138727440384
     _rightBoundary:
-      _serializedValue: 249108103168
+      _serializedValue: 138727440384
     position:
       x:
         _serializedValue: 0
@@ -846,7 +847,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -991,7 +992,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1205,24 +1206,24 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-  - stageName: Tank Stage
+  - stageName: Game Lab
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: b240a326a6e442849a60a894626d434e, type: 3}
-    prefab: {fileID: 3389396943081994378, guid: 82376585b17e62d40a8764b24a078241,
+    screenshot: {fileID: 2800000, guid: 1eeac2b1fb2981d42b331b04035cfd36, type: 3}
+    prefab: {fileID: 5060747415993636074, guid: 7b45560972d11464bbac611badc062d1,
       type: 3}
     music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -128849018880
+      _serializedValue: -138727440384
     _rightBoundary:
-      _serializedValue: 128849018880
+      _serializedValue: 138727440384
     position:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 1675037184
+        _serializedValue: 0
       z:
         _serializedValue: 0
   - stageName: Gym
@@ -1683,9 +1684,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 0
     synchronizationAction: 0
   music: 1
-  musicVolume: 0.039203104
+  musicVolume: 1
   soundfx: 1
-  soundfxVolume: 0.04053382
+  soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
