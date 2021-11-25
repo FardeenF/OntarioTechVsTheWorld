@@ -10,34 +10,49 @@ public class HitReaction : MonoBehaviour
     bool hasHit = false;
     float beatTempo;
     int counter = 0;
+    private bool isDirty;
+
 
     // Start is called before the first frame update
     void Start()
     {
         UFE.OnHit += this.HitChecker;
         beatTempo = BPM / 60.0f;
+        isDirty = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-       
-        timer += Time.deltaTime;
-        //Debug.Log(timer);
-
-        //if (timer % beatTempo > 0.0f && timer % beatTempo < 0.5f)
-        //{
-        //    timer = 0.0f;
-        //    counter++;
-        //    Debug.Log("RHYTHYM ATTACK!  " + counter);
-        //}
-
-
-        if (timer > 2.6)
+        if(UFE.isPaused())
         {
-            timer = 0.0f;
+            isDirty = false;
         }
-        
+        else
+        {
+            isDirty = true;
+        }
+
+
+
+       if(isDirty)
+        {
+            timer += Time.deltaTime;
+            //Debug.Log(timer);
+
+            //if (timer % beatTempo > 0.0f && timer % beatTempo < 0.5f)
+            //{
+            //    timer = 0.0f;
+            //    counter++;
+            //    Debug.Log("RHYTHYM ATTACK!  " + counter);
+            //}
+
+
+            if (timer > 2.6)
+            {
+                timer = 0.0f;
+            }
+        }
 
     }
 
@@ -45,15 +60,18 @@ public class HitReaction : MonoBehaviour
 
     void HitChecker(HitBox strokeHitbox, MoveInfo move, ControlsScript hitter)
     {
-        hasHit = true;
-
-        if (timer % beatTempo > 0.0f && timer % beatTempo < 0.5f)
+        if(isDirty)
         {
-            timer = 0.0f;
-            Debug.Log("RHYTHYM ATTACK!");
-            //hitter.currentHit.
-        }
+            hasHit = true;
 
-        Debug.Log("Hit Activated!");
+            if (timer % beatTempo > 0.0f && timer % beatTempo < 0.5f)
+            {
+                timer = 0.0f;
+                Debug.Log("RHYTHYM ATTACK!");
+                //hitter.currentHit.
+            }
+
+            Debug.Log(UFE.GetStage().stageName);
+        }
     }
 }

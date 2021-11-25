@@ -10,6 +10,7 @@ public class SpawnObjectFromPool : MonoBehaviour
     private float lastTime;
     float torque1 = 100.0f;
     float torque2 = 65.0f;
+    
 
     // Update is called once per frame
     void Update()
