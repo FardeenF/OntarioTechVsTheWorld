@@ -19,6 +19,7 @@ public class DefaultMainMenuScreen : MainMenuScreen{
 	public Button buttonBluetooth;
 
     public static event Action userClick;
+    public static event System.Action<string> onlineClick;
     #endregion
 
     #region public override methods
@@ -75,5 +76,11 @@ public class DefaultMainMenuScreen : MainMenuScreen{
             userClick?.Invoke();
             #endregion
         }
+    }
+
+    public void disabledOnlineClick()
+    {
+        if(!buttonNetwork.interactable)
+            onlineClick?.Invoke("Enable networking to play online.");
     }
 }
