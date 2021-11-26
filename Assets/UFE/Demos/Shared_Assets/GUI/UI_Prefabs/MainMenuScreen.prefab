@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 1079.1, y: 300}
-  m_SizeDelta: {x: 623.69, y: 100}
+  m_SizeDelta: {x: 640.82, y: 100}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &22200006
 CanvasRenderer:
@@ -509,7 +509,7 @@ MonoBehaviour:
   hasFadeOut: 1
   wrapInput: 1
   onLoadSound: {fileID: 0}
-  music: {fileID: 8300000, guid: f677a794af65dfe46917f53cc9810eec, type: 3}
+  music: {fileID: 0}
   selectSound: {fileID: 8300000, guid: 51afa2d593bb4db438247ff64dadf46d, type: 3}
   cancelSound: {fileID: 8300000, guid: 681d218d3074955459d3e17a1a14f85f, type: 3}
   moveCursorSound: {fileID: 8300000, guid: e33073cf85d1edf4d992c2f5c6a33c90, type: 3}
@@ -3511,8 +3511,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 377.27258, y: -82}
-  m_SizeDelta: {x: 205.8233, y: 35.744324}
+  m_AnchoredPosition: {x: 411.27704, y: -82}
+  m_SizeDelta: {x: 284.3875, y: 35.7443}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6518162627961711236
 CanvasRenderer:
@@ -4295,7 +4295,9 @@ MonoBehaviour:
     m_Options:
     - m_Text: English
       m_Image: {fileID: 0}
-    - m_Text: French
+    - m_Text: Francais
+      m_Image: {fileID: 0}
+    - m_Text: Espanol
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4332,6 +4334,7 @@ MonoBehaviour:
   optionsText: {fileID: 11422290}
   creditsText: {fileID: 11437050}
   exitText: {fileID: 11432696}
+  overlayToggleText: {fileID: 5824608615836055061}
   drop: {fileID: 3213919927732719931}
 --- !u!1 &6962323848392003768
 GameObject:

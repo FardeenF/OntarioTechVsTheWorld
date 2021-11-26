@@ -2,33 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnObjectFromPool : MonoBehaviour
+public class SpawnObject : MonoBehaviour
 {
     //public float projectileForce = 20.0f;
+    public GameObject objectPrefab;
     GameObject spawnedObject;
+    GameObject lastObject;
     public float spawnTime = 0.5f;
     private float lastTime;
     float torque1 = 100.0f;
     float torque2 = 65.0f;
-    
+
 
     // Update is called once per frame
     void Update()
     {
-        if(Time.time - lastTime > spawnTime)
+        if (Time.time - lastTime > spawnTime)
         {
             lastTime = Time.time;
-            spawnedObject = ObjectPool.SharedInstance.GetPooledObject();
-
-            if (spawnedObject != null)
-            {
-                Vector3 position = RandomPointInBox(this.transform.position);
-                spawnedObject.transform.position = position;
-                spawnedObject.transform.rotation = Quaternion.Euler(this.transform.forward);
-                spawnedObject.SetActive(true);
-
-                //spawnedObject.GetComponent<Rigidbody>().AddTorque(transform.up * torque1 * torque2);
-            }
+            spawnedObject = Instantiate(objectPrefab, RandomPointInBox(transform.position), Quaternion.identity);
         }
     }
 
@@ -43,6 +35,4 @@ public class SpawnObjectFromPool : MonoBehaviour
             Random.Range(-4.82f, 4.82f)
         );
     }
-
-
 }
