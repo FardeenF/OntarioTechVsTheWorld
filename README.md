@@ -26,13 +26,20 @@ https://fardeenf.github.io/Game-Engine-Assignment-4-Build/
 
 ## Development Team
 **Fardeen Faisal** - Lead Programmer
+
 **Andy Waterhouse** - Programmer/3D Artist
+
 **Ethan Kowalchuk** - Lead Game Designer
+
 **Daye Fubara** - Programming/Design
+
 **Hossain Alinaqi** - Music/Design
+
 **Gary Liu** - Generalist
 
 ## References
 -Referenced Game Engine Labs
+
 -Skybox Collection Used: https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633
+
 -UFE Engine: http://www.ufe3d.com/doku.php
