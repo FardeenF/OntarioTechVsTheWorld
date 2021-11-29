@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Config_Fighter2D
   m_EditorClassIdentifier: 
   version: 2
-  player1Character: {fileID: 0}
-  player2Character: {fileID: 0}
+  player1Character: {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
+  player2Character: {fileID: 11400000, guid: f0ed0d0ea0c86e24e8af99019d695928, type: 2}
   player1Team:
   - {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
@@ -24,19 +24,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   selectedStage:
-    stageName: Game Lab
+    stageName: Music Stage
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: 1eeac2b1fb2981d42b331b04035cfd36, type: 3}
-    prefab: {fileID: 5060747415993636074, guid: 7b45560972d11464bbac611badc062d1,
-      type: 3}
-    music: {fileID: 0}
+    screenshot: {fileID: 2800000, guid: c30c962de884ec145a904067960b3b85, type: 3}
+    prefab: {fileID: 43191549469336054, guid: b053131faf1614c4889f2c0efe198478, type: 3}
+    music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -138727440384
+      _serializedValue: -163208757248
     _rightBoundary:
-      _serializedValue: 138727440384
+      _serializedValue: 163208757248
     position:
       x:
         _serializedValue: 0
@@ -847,7 +846,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -992,7 +991,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1148,18 +1147,18 @@ MonoBehaviour:
     confirmButton: 4
     cancelButton: 7
   stages:
-  - stageName: Training Room (Prefab)
+  - stageName: Music Stage
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
-    prefab: {fileID: 100000, guid: 064338a39a43ad647989c96c321658a2, type: 3}
+    screenshot: {fileID: 2800000, guid: c30c962de884ec145a904067960b3b85, type: 3}
+    prefab: {fileID: 43191549469336054, guid: b053131faf1614c4889f2c0efe198478, type: 3}
     music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -158913789952
+      _serializedValue: -163208757248
     _rightBoundary:
-      _serializedValue: 158913789952
+      _serializedValue: 163208757248
     position:
       x:
         _serializedValue: 0
