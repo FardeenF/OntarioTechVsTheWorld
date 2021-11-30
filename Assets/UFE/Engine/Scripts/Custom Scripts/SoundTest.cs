@@ -51,7 +51,7 @@ public class SoundTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log("Song Beats: " + Conductor.instance.songPositionInBeatsInteger);
+        Debug.Log("Song Beats: " + Conductor.instance.songPositionInBeatsInteger);
 
 
         //if (Mathf.Round(Conductor.instance.songPositionInBeatsInteger) % 2 == 0)
@@ -103,7 +103,7 @@ public class SoundTest : MonoBehaviour
             foreach (Hit hit in move.hits)
             {
                 hit._damageOnHit = hit._damageOnHit + 60.0f;
-                Debug.Log("Damage: " + hit._damageOnHit);
+                //Debug.Log("Damage: " + hit._damageOnHit);
             }
 
         }
