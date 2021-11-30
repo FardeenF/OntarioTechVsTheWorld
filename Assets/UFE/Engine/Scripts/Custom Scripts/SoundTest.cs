@@ -14,14 +14,16 @@ public class SoundTest : MonoBehaviour
 
     bool rhythmHit = false;
 
-    private ParticleSystem notes;
+    ParticleSystem notes;
+    public float noteParticleOffset = 5.0f;
 
     StressReceiver receiver;
     float cameraStress;
+    GameObject camera;
 
     private void Awake()
     {
-        notes = transform.GetComponent<ParticleSystem>();
+        notes = gameObject.GetComponent<ParticleSystem>();
     }
 
     private void Start()
@@ -29,7 +31,8 @@ public class SoundTest : MonoBehaviour
         UFE.OnHit += this.HitChecker;
         UFE.OnLifePointsChange += this.LifeChange;
 
-        
+        camera = UnityEngine.GameObject.Find("Camera");
+        camera.GetComponent<AudioSource>().enabled = false;
 
         var targets = UnityEngine.Object.FindObjectsOfType<GameObject>();
         for (int i = 0; i < targets.Length; ++i)
@@ -48,7 +51,7 @@ public class SoundTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Song Beats: " + Conductor.instance.songPositionInBeatsInteger);
+        //Debug.Log("Song Beats: " + Conductor.instance.songPositionInBeatsInteger);
 
 
         //if (Mathf.Round(Conductor.instance.songPositionInBeatsInteger) % 2 == 0)
@@ -80,20 +83,39 @@ public class SoundTest : MonoBehaviour
 
     void HitChecker(HitBox strokeHitbox, MoveInfo move, ControlsScript hitter)
     {
+        //move.hits[0]._damageOnHit = move.hits[0]._damageOnHit + 30.0f;
+        //Debug.Log("Damage: " + move.hits[0]._damageOnHit);
+
         if (rhythmHit)
         {
             Debug.Log("Beat Rhythm!");
 
             receiver.InduceStress(cameraStress);
-            //notes.Play();
+            if (notes != null)
+            {
+                notes.GetComponent<Transform>().position = new Vector3(hitter.GetComponent<Transform>().position.x,
+                    hitter.GetComponent<Transform>().position.y + noteParticleOffset, hitter.GetComponent<Transform>().position.z);
+                notes.Play();
+            }
 
             //UFE.config.player1Character.moves[0].attackMoves[0].hits[0]._damageOnHit = 100.0f;
+
+            foreach (Hit hit in move.hits)
+            {
+                hit._damageOnHit = hit._damageOnHit + 60.0f;
+                Debug.Log("Damage: " + hit._damageOnHit);
+            }
+
+        }
+        else
+        {
+
         }
     }
 
     void LifeChange(float newLifePoints, ControlsScript player)
     {
-        //Debug.Log(newLifePoints);
+        Debug.Log(newLifePoints);
     }
 
    

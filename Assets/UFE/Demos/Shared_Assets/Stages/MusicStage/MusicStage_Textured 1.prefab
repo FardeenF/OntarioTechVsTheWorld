@@ -190,7 +190,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933774382789079272}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: -9.842091, y: 6.1033554, z: 18.569063}
+  m_LocalPosition: {x: -1.83, y: 3.29, z: 14.27}
   m_LocalScale: {x: 0.6666667, y: 0.5780347, z: 0.48076922}
   m_Children: []
   m_Father: {fileID: 851922297418382156}
@@ -211,7 +211,7 @@ MonoBehaviour:
   Delay: 1
   MaximumStress: 0.4
   Range: 45
-  notes: {fileID: 4384936952419033251}
+  noteParticleOffset: 3.05
 --- !u!198 &4384936952419033251
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -229,7 +229,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -402,7 +402,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 0.23529412}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -464,8 +464,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 8
-      minScalar: 6
+      scalar: 400
+      minScalar: 400
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -517,8 +517,8 @@ ParticleSystem:
     startSizeY:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 1
-      minScalar: 1
+      scalar: 150
+      minScalar: 150
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -782,7 +782,7 @@ ParticleSystem:
     randomizeRotationDirection: 0
     maxNumParticles: 1
     customEmitterVelocity: {x: 0, y: 0, z: 0}
-    size3D: 0
+    size3D: 1
     rotation3D: 0
     gravityModifier:
       serializedVersion: 2
@@ -1152,7 +1152,7 @@ ParticleSystem:
     m_BurstCount: 0
     m_Bursts: []
   SizeModule:
-    enabled: 1
+    enabled: 0
     curve:
       serializedVersion: 2
       minMaxState: 1
@@ -4965,7 +4965,7 @@ ParticleSystemRenderer:
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
-  m_MaxParticleSize: 0.5
+  m_MaxParticleSize: 1.5
   m_CameraVelocityScale: 0
   m_VelocityScale: 0.1
   m_LengthScale: 2

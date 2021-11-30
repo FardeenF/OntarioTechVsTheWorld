@@ -18,6 +18,8 @@ public class DefaultMainMenuScreen : MainMenuScreen{
 	public Button buttonNetwork;
 	public Button buttonBluetooth;
 
+    GameObject camera;
+
     public static event Action userClick;
     public static event System.Action<string> onlineClick;
     #endregion
@@ -67,6 +69,14 @@ public class DefaultMainMenuScreen : MainMenuScreen{
         }
 	}
     #endregion
+
+    private void Start()
+    {
+        camera = UnityEngine.GameObject.Find("Camera");
+        camera.GetComponent<AudioSource>().playOnAwake = true;
+        camera.GetComponent<AudioSource>().enabled = true;
+
+    }
 
     private void Update()
     {
