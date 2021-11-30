@@ -14,13 +14,22 @@ public class SoundTest : MonoBehaviour
 
     bool rhythmHit = false;
 
+    private ParticleSystem notes;
+
     StressReceiver receiver;
     float cameraStress;
+
+    private void Awake()
+    {
+        notes = transform.GetComponent<ParticleSystem>();
+    }
 
     private void Start()
     {
         UFE.OnHit += this.HitChecker;
         UFE.OnLifePointsChange += this.LifeChange;
+
+        
 
         var targets = UnityEngine.Object.FindObjectsOfType<GameObject>();
         for (int i = 0; i < targets.Length; ++i)
@@ -39,7 +48,7 @@ public class SoundTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log("Song Beats: " + Conductor.instance.songPositionInBeatsInteger);
+        Debug.Log("Song Beats: " + Conductor.instance.songPositionInBeatsInteger);
 
 
         //if (Mathf.Round(Conductor.instance.songPositionInBeatsInteger) % 2 == 0)
@@ -76,6 +85,7 @@ public class SoundTest : MonoBehaviour
             Debug.Log("Beat Rhythm!");
 
             receiver.InduceStress(cameraStress);
+            //notes.Play();
 
             //UFE.config.player1Character.moves[0].attackMoves[0].hits[0]._damageOnHit = 100.0f;
         }
@@ -83,6 +93,8 @@ public class SoundTest : MonoBehaviour
 
     void LifeChange(float newLifePoints, ControlsScript player)
     {
-        Debug.Log(newLifePoints);
+        //Debug.Log(newLifePoints);
     }
+
+   
 }

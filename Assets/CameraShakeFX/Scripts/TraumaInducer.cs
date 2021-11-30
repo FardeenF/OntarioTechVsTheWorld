@@ -16,7 +16,7 @@ public class TraumaInducer : MonoBehaviour
         /* Wait for the specified delay */
         yield return new WaitForSeconds(Delay);
         /* Play all the particle system this object has */
-        //PlayParticles();
+        PlayParticles();
 
         /* Find all gameobjects in the scene and loop through them until we find all the nearby stress receivers */
         var targets = UnityEngine.Object.FindObjectsOfType<GameObject>();
