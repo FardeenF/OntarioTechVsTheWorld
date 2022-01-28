@@ -47,6 +47,7 @@ Transform:
   - {fileID: 2869966918318070388}
   - {fileID: 1291395926963331895}
   - {fileID: 5514753917100648279}
+  - {fileID: 101798263302927462}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -10358,6 +10359,121 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &496259652578792333
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 851922297418382156}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.2657187
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.32
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.76
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9334602
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3586812
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 42.038
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+        type: 3}
+      propertyPath: m_Name
+      value: Andy Dancing
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f75f7811c5e40ca4dbd450c1cf830cc7, type: 3}
+--- !u!1 &730278407603777244 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+    type: 3}
+  m_PrefabInstance: {fileID: 496259652578792333}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &101798263302927462 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f75f7811c5e40ca4dbd450c1cf830cc7,
+    type: 3}
+  m_PrefabInstance: {fileID: 496259652578792333}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2304715818796776654
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730278407603777244}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: f75f7811c5e40ca4dbd450c1cf830cc7, type: 3}
+  m_Controller: {fileID: 9100000, guid: 3471ad0c6e3ec4d4bbc4fb2f931eb364, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &2978063951405004069
 PrefabInstance:
   m_ObjectHideFlags: 0
