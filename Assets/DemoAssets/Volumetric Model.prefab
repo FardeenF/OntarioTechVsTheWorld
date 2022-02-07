@@ -229,6 +229,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -286,6 +287,7 @@ MonoBehaviour:
   fileName: Riley_01637261937_master
   autoLoop: 1
   autoPlay: 1
+  depthTextureScaleFactor: 0.5
   instanceRef: []
   paused: 0
   stopped: 0
