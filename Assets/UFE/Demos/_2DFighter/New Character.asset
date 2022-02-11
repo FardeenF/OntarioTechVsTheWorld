@@ -23,7 +23,7 @@ MonoBehaviour:
   deathSound: {fileID: 0}
   height: 2
   age: 18
-  bloodType: O-
+  bloodType: Unknown
   lifePoints: 1000
   maxGaugePoints: 0
   characterPrefabStorage: 0

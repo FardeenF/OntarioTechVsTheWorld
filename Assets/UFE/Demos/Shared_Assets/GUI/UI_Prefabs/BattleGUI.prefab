@@ -236,13 +236,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GradientType: 0
-  Offset: -0.2
+  Offset: 0.17
   StartColor:
     serializedVersion: 2
-    rgba: 4278255601
+    rgba: 4294947840
   EndColor:
     serializedVersion: 2
-    rgba: 4278190335
+    rgba: 4289094044
 --- !u!114 &11400042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,13 +352,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GradientType: 0
-  Offset: -0.2
+  Offset: 0.17
   StartColor:
     serializedVersion: 2
-    rgba: 4278255601
+    rgba: 4294947840
   EndColor:
     serializedVersion: 2
-    rgba: 4278190335
+    rgba: 4289094044
 --- !u!114 &11400046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -671,7 +671,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
-  m_FillAmount: 0.153
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -920,13 +920,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GradientType: 0
-  Offset: 0
+  Offset: 0.17
   StartColor:
     serializedVersion: 2
-    rgba: 4294954685
+    rgba: 4294947840
   EndColor:
     serializedVersion: 2
-    rgba: 4283967273
+    rgba: 4289094044
 --- !u!114 &11400044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1036,13 +1036,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GradientType: 0
-  Offset: 0
+  Offset: 0.17
   StartColor:
     serializedVersion: 2
-    rgba: 4294954685
+    rgba: 4294947840
   EndColor:
     serializedVersion: 2
-    rgba: 4283967273
+    rgba: 4289094044
 --- !u!114 &11400036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1493,13 +1493,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GradientType: 0
-  Offset: 0
+  Offset: 0.17
   StartColor:
     serializedVersion: 2
-    rgba: 4294954685
+    rgba: 4294947840
   EndColor:
     serializedVersion: 2
-    rgba: 4283967273
+    rgba: 4289094044
 --- !u!114 &11400064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1759,13 +1759,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GradientType: 0
-  Offset: -0.2
+  Offset: 0.17
   StartColor:
     serializedVersion: 2
-    rgba: 4278255601
+    rgba: 4294947840
   EndColor:
     serializedVersion: 2
-    rgba: 4278190335
+    rgba: 4289094044
 --- !u!114 &11400040
 MonoBehaviour:
   m_ObjectHideFlags: 0
