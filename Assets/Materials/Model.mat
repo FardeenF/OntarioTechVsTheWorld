@@ -108,7 +108,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _Diffuse: 1
     - _DstBlend: 0
-    - _FadeDistance: 0.025
+    - _FadeDistance: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -123,6 +123,7 @@ Material:
     - _SumConfidence: 0.25
     - _UVSec: 0
     - _ZWrite: 1
+    - _gray: 0
     m_Colors:
     - _AmbColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
