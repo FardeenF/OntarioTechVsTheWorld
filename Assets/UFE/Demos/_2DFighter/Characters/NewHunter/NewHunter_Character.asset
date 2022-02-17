@@ -101,7 +101,7 @@ MonoBehaviour:
   possibleAirMoves: 1
   _blendingTime:
     _serializedValue: 429496736
-  animationType: 0
+  animationType: 1
   avatar: {fileID: 0}
   useScaleFlip: 0
   applyRootMotion: 0
@@ -218,7 +218,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 1
+        editorToggle: 0
         soundEffectsToggle: 0
       moveForward:
         animMap:

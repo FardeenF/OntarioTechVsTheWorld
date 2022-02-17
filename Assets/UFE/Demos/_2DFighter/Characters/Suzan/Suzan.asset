@@ -21,7 +21,8 @@ MonoBehaviour:
 
     Model Type: 3D Model
 
-    Animation Type: Mecanim'
+    Animation
+    Type: Mecanim'
   selectionAnimation: {fileID: 7400002, guid: 8409b806755a09e408a34b9f83e7f5ad, type: 3}
   selectionSound: {fileID: 0}
   deathSound: {fileID: 8300000, guid: 59d283572ffee7c41b2a31e47c3b32be, type: 3}
@@ -130,6 +131,7 @@ MonoBehaviour:
   applyRootMotion: 0
   animationFlow: 0
   useAnimationMaps: 1
+  normalizeAnimationFrames: 0
   stanceResourcePath:
   - _2DFighter\MoveSets\Mecanim_Bot
   moves: []
