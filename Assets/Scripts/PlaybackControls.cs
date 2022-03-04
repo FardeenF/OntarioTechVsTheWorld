@@ -11,6 +11,7 @@ public class PlaybackControls : MonoBehaviour
     public Slider scrubbingSlider;
     private bool getSliderHandle;
     private int volumetricIndex;
+    public string newClipFileName;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,18 @@ public class PlaybackControls : MonoBehaviour
 
     private void Update()
     {
+
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit, 100.0f))
+            {
+                playbackComponent = hit.transform.GetChild(0).GetComponent<VolumetricRender>();
+                volumetricIndex = playbackComponent.instanceRef.IndexOf(hit.transform.GetChild(0).GetComponent<PlaybackInstance>());
+            }
+        }
 
         if(playbackComponent != null)
         {
@@ -62,5 +75,10 @@ public class PlaybackControls : MonoBehaviour
     public void PlaybackStop()
     {
         playbackComponent.StopModel(volumetricIndex);
+    }
+
+    public void LoadNewClip()
+    {
+        playbackComponent.LoadNewClip(newClipFileName, volumetricIndex);
     }
 }

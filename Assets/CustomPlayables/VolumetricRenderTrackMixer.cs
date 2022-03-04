@@ -13,14 +13,11 @@ public class VolumetricRenderTrackMixer : PlayableBehaviour
     public bool played;
     public bool seeking;
     public bool newClip;
-    public double lastTime;
-    public int oldIndex;
-    public bool reset;
 
     public override void ProcessFrame(Playable playable, FrameData info, object playerData)
     {
         VolumetricRender volRender = playerData as VolumetricRender;
-        if (!volRender) { return; }
+        if (!volRender.GetComponent<PlaybackInstance>()) { return; }
 
         int inputCount = playable.GetInputCount();
         for(int i = 0; i < inputCount; i++)

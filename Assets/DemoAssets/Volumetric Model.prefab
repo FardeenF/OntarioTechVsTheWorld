@@ -188,7 +188,8 @@ GameObject:
   - component: {fileID: 3335294005484355475}
   - component: {fileID: 7251624036734566283}
   - component: {fileID: 7409405992830241488}
-  - component: {fileID: 1341903812343076693}
+  - component: {fileID: 5121757925772763274}
+  - component: {fileID: 5243300760852669038}
   m_Layer: 0
   m_Name: ModelMesh
   m_TagString: Untagged
@@ -203,13 +204,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4964373587931536725}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.8103995, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 911070104534723498}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3335294005484355475
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -229,7 +230,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -267,12 +267,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4964373587931536725}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54a0ce3cebf2442f5b1a6dbf1368e203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1341903812343076693
+--- !u!114 &5121757925772763274
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -284,12 +284,24 @@ MonoBehaviour:
   m_Script: {fileID: -1602337218, guid: b495353b2c0b33844b25ec28bd085a6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fileName: Riley_01637261937_master
+  fileName: BobbyAREight_01643667857_master
   autoLoop: 1
   autoPlay: 1
   depthTextureScaleFactor: 0.5
-  instanceRef: []
-  paused: 0
-  stopped: 0
-  playing: 0
-  finished: 0
+  chromaColor: {r: 0, g: 1, b: 0, a: 1}
+  gain: 1.5
+  bias: 0.1
+  overrideChroma: 0
+--- !u!114 &5243300760852669038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4964373587931536725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1867183640, guid: b495353b2c0b33844b25ec28bd085a6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createPreview: 0
