@@ -43,11 +43,11 @@ MonoBehaviour:
     x:
       _serializedValue: 0
     y:
-      _serializedValue: 3037000704
+      _serializedValue: 3008
     z:
       _serializedValue: 0
     w:
-      _serializedValue: 3037000704
+      _serializedValue: 4294967296
   physics:
     _moveForwardSpeed:
       _serializedValue: 17179869184
