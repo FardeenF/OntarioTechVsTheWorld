@@ -47,7 +47,7 @@ MonoBehaviour:
     z:
       _serializedValue: 0
     w:
-      _serializedValue: -3037000704
+      _serializedValue: 3037000704
   physics:
     _moveForwardSpeed:
       _serializedValue: 32212254720
@@ -716,7 +716,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 8
+        wrapMode: 1
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -757,7 +757,7 @@ MonoBehaviour:
       jumpStraight:
         animMap:
         - animationMaps: []
-          clip: {fileID: -203655887218126122, guid: 7312cce201944e646ac1108e18768985,
+          clip: {fileID: -203655887218126122, guid: 2b5f8a37dbbc7584faee3d00c08361ed,
             type: 3}
           customHitBoxDefinition: {fileID: 11400000, guid: 8f6ad842351b8534da19ace23b43083e,
             type: 2}
@@ -864,7 +864,8 @@ MonoBehaviour:
       jumpBack:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: -203655887218126122, guid: 2b5f8a37dbbc7584faee3d00c08361ed,
+            type: 3}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -927,11 +928,11 @@ MonoBehaviour:
           bakeSpeed: 0
           hitBoxDefinitionType: 0
         _animationSpeed:
-          _serializedValue: 4294967296
+          _serializedValue: -2147483648
         wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
-        autoSpeed: 1
+        autoSpeed: 0
         _restingClipInterval:
           _serializedValue: 25769803776
         overrideBlendingIn: 0
@@ -964,12 +965,13 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 0
+        editorToggle: 1
         soundEffectsToggle: 0
       jumpForward:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: -203655887218126122, guid: 2b5f8a37dbbc7584faee3d00c08361ed,
+            type: 3}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -1032,11 +1034,11 @@ MonoBehaviour:
           bakeSpeed: 0
           hitBoxDefinitionType: 0
         _animationSpeed:
-          _serializedValue: 4294967296
-        wrapMode: 0
+          _serializedValue: 2147483648
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
-        autoSpeed: 1
+        autoSpeed: 0
         _restingClipInterval:
           _serializedValue: 25769803776
         overrideBlendingIn: 0
@@ -1069,7 +1071,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 0
+        editorToggle: 1
         soundEffectsToggle: 0
       fallStraight:
         animMap:
@@ -1081,7 +1083,7 @@ MonoBehaviour:
           length:
             _serializedValue: 0
           bakeSpeed: 0
-          hitBoxDefinitionType: 1
+          hitBoxDefinitionType: 0
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -1146,7 +1148,7 @@ MonoBehaviour:
         autoSpeed: 1
         _restingClipInterval:
           _serializedValue: 25769803776
-        overrideBlendingIn: 1
+        overrideBlendingIn: 0
         overrideBlendingOut: 0
         _blendingIn:
           _serializedValue: 1288490240
@@ -1176,7 +1178,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 0
+        editorToggle: 1
         soundEffectsToggle: 0
       fallBack:
         animMap:
@@ -1245,7 +1247,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -1350,7 +1352,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1

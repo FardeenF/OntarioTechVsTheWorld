@@ -45,7 +45,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c6ae9701a278edc4ba4084a0a3ff4ede,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.7071068
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6ae9701a278edc4ba4084a0a3ff4ede,
         type: 3}
@@ -842,6 +842,11 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.0041891816
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c6ae9701a278edc4ba4084a0a3ff4ede,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 85eca58503f1043499d28ef6a3683ace, type: 2}
     - target: {fileID: 6000407479487422213, guid: c6ae9701a278edc4ba4084a0a3ff4ede,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1229,7 +1234,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 3006477107
+      _serializedValue: 3006477056
     _offSet:
       x:
         _serializedValue: 0
@@ -2418,7 +2423,7 @@ MonoBehaviour:
         _serializedValue: 0
   hitConfirmType: 0
   collisionBoxSize:
-    _serializedValue: 0
+    _serializedValue: 8589934592
   inverted: 0
   bakeSpeed: 0
   deltaPosition:

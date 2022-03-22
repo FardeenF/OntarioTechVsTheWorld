@@ -5487,5 +5487,5 @@ MonoBehaviour:
     attackMoves: []
     enabledBasicMovesToggle: 0
     basicMovesToggle: 1
-    attackMovesToggle: 0
+    attackMovesToggle: 1
   aiInstructionsSet: []
