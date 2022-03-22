@@ -1,16 +1,19 @@
 {
     "name": "UFE3D",
+    "rootNamespace": "",
     "references": [],
-    "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
-    "allowUnsafeCode": false,
+    "allowUnsafeCode": true,
     "overrideReferences": true,
     "precompiledReferences": [
         "AForge.Core.dll",
         "AI4Unity.Fuzzy.dll",
-        "AForge.Fuzzy.dll"
+        "AForge.Fuzzy.dll",
+        "SoarSDK.dll"
     ],
     "autoReferenced": true,
-    "defineConstraints": []
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

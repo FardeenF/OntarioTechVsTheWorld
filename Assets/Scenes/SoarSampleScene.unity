@@ -1690,18 +1690,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3335294005484355475, guid: ab698e7e20e914aa69d83ae72b00a3f8, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5121757925772763274, guid: ab698e7e20e914aa69d83ae72b00a3f8, type: 3}
       propertyPath: autoLoop
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5121757925772763274, guid: ab698e7e20e914aa69d83ae72b00a3f8, type: 3}
       propertyPath: autoPlay
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5121757925772763274, guid: ab698e7e20e914aa69d83ae72b00a3f8, type: 3}
       propertyPath: fileName
       value: BobbyAREight_01643667857_master
       objectReference: {fileID: 0}
+    - target: {fileID: 5243300760852669038, guid: ab698e7e20e914aa69d83ae72b00a3f8, type: 3}
+      propertyPath: pausePreview
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243300760852669038, guid: ab698e7e20e914aa69d83ae72b00a3f8, type: 3}
+      propertyPath: createPreview
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243300760852669038, guid: ab698e7e20e914aa69d83ae72b00a3f8, type: 3}
+      propertyPath: currentTimestamp
+      value: 6.222633
+      objectReference: {fileID: 0}
+    - target: {fileID: 7251624036734566283, guid: ab698e7e20e914aa69d83ae72b00a3f8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e10bebeaebef2a443b2229a0ccbdb021, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab698e7e20e914aa69d83ae72b00a3f8, type: 3}
 --- !u!1 &1861659813

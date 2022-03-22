@@ -3,7 +3,7 @@
 // Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
 
-Shader "Soar/SoarShader"
+Shader "Soar/SoarShaderCore"
 {
     Properties
     {
@@ -24,7 +24,8 @@ Shader "Soar/SoarShader"
         {
             Tags
             {
-                "RenderPipeline" = "UniversalPipeline"
+                "RenderType" = "Opaque"
+                "LightMode" = "ForwardBase"
             }
 
             LOD 100
