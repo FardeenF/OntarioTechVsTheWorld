@@ -2314,16 +2314,16 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 0
-    hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
+    damageOptionsToggle: 1
+    hitStunOptionsToggle: 1
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 0
-    stageReactionsToggle: 0
-    overrideEventsToggle: 0
+    stageReactionsToggle: 1
+    overrideEventsToggle: 1
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 0
+    hurtBoxesToggle: 1
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
@@ -2576,11 +2576,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 160116752
+        _serializedValue: -811458112
       y:
-        _serializedValue: 17800163328
+        _serializedValue: 17486741504
       z:
-        _serializedValue: 389998400
+        _serializedValue: 414203360
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
