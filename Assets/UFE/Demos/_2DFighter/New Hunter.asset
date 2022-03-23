@@ -859,7 +859,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 1
+        editorToggle: 0
         soundEffectsToggle: 0
       jumpBack:
         animMap:
@@ -3284,7 +3284,7 @@ MonoBehaviour:
       fallDown:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: a139b82c7e3701f418396418194403d6, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -3494,7 +3494,7 @@ MonoBehaviour:
       getHitCrouching:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 666157af11b78d8419412ec9e41840a5, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -3599,7 +3599,7 @@ MonoBehaviour:
       getHitHigh:
         animMap:
         - animationMaps: []
-          clip: {fileID: 7400000, guid: a64e83680cf92f94e8763b0acbfb6824, type: 2}
+          clip: {fileID: 7400000, guid: 4896a2b58fbde7d47a92afa1002c7377, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -3699,7 +3699,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 1
+        editorToggle: 0
         soundEffectsToggle: 0
       getHitLow:
         animMap:
@@ -4439,7 +4439,7 @@ MonoBehaviour:
       standUp:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 7dbb631208b1ee74f8249d8286c57384, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -4503,7 +4503,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -5493,6 +5493,7 @@ MonoBehaviour:
       parryEnabled: 1
     attackMoves:
     - {fileID: 11400000, guid: ce0479e503486634c8ebbfa900754126, type: 2}
+    - {fileID: 11400000, guid: dedc63afb171e6b46a83770b770924b6, type: 2}
     enabledBasicMovesToggle: 0
     basicMovesToggle: 1
     attackMovesToggle: 1

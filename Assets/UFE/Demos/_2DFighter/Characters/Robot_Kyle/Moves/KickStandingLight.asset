@@ -2502,6 +2502,7 @@ MonoBehaviour:
   invertRotationLeft: 0
   invertRotationRight: 0
   autoCorrectRotation: 0
+  allowSideSwitch: 0
   frameWindowRotation: 0
   cooldown: 0
   cooldownFrames: 0
@@ -2538,9 +2539,9 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 07000000
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -3049,6 +3050,7 @@ MonoBehaviour:
       z:
         _serializedValue: -637990400
   lockOnTargets: []
+  switchCharacterOptions: []
   invincibleBodyParts: []
   stateOverride: []
   armorOptions:
@@ -3079,3 +3081,4 @@ MonoBehaviour:
     damageAbsorption: 0
     nonAffectedBodyParts: 
   projectiles: []
+  rotationPreview: {x: 0, y: 90, z: 0}
