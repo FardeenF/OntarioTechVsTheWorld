@@ -21,9 +21,13 @@ public class SoundTest : MonoBehaviour
     float cameraStress;
     GameObject camera;
 
+    public GameObject BeatMarker;
+
     private void Awake()
     {
         notes = gameObject.GetComponent<ParticleSystem>();
+        //BeatMarker = GameObject.Find("BeatMarker");
+        
     }
 
     private void Start()
@@ -33,6 +37,8 @@ public class SoundTest : MonoBehaviour
 
         camera = UnityEngine.GameObject.Find("Camera");
         camera.GetComponent<AudioSource>().enabled = false;
+
+        
 
         var targets = UnityEngine.Object.FindObjectsOfType<GameObject>();
         for (int i = 0; i < targets.Length; ++i)
@@ -69,10 +75,15 @@ public class SoundTest : MonoBehaviour
         {
             //Debug.Log("Beat Rhythm!");
             rhythmHit = true;
+            
+            BeatMarker.SetActive(true);
+            
+            
         }
         else
         {
             rhythmHit = false;
+            BeatMarker.SetActive(false);
         }
         //else if (Conductor.instance.songPositionInBeatsInteger % 2 == 1)
         //{

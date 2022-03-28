@@ -1,0 +1,8 @@
+newmtl textured
+    Ka 1.000 1.000 1.000
+    Kd 1.000 1.000 1.000
+    Ks 0.000 0.000 0.000
+    d 1.0
+     illum 1
+    map_Ka t-pose_70225688.0000006.png
+    map_Kd t-pose_70225688.0000006.png
