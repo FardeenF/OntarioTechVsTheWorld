@@ -4387,6 +4387,7 @@ MonoBehaviour:
   invertRotationLeft: 0
   invertRotationRight: 0
   autoCorrectRotation: 0
+  allowSideSwitch: 0
   frameWindowRotation: 0
   cooldown: 0
   cooldownFrames: 0
@@ -4402,8 +4403,8 @@ MonoBehaviour:
       _serializedValue: 1288490240
   totalFrames: 56
   startUpFrames: 11
-  activeFrames: 25
-  recoveryFrames: 20
+  activeFrames: 26
+  recoveryFrames: 19
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -4429,9 +4430,9 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 04000000
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -4445,7 +4446,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   previousMoves: []
@@ -4502,7 +4503,7 @@ MonoBehaviour:
     recoverySpeed: 4
     hitConfirmType: 0
     preferableDistance: 2
-    gaugeUsage: 0
+    gaugeUsage: 2
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
@@ -4513,7 +4514,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 0
-    activeFramesEnds: 56
+    activeFramesEnds: 55
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -4573,7 +4574,7 @@ MonoBehaviour:
   - castingFrame: 0
     sounds:
     - {fileID: 8300000, guid: c1fc60cc54dfe0c42bad64d9a9046926, type: 3}
-    soundEffectsToggle: 0
+    soundEffectsToggle: 1
   inGameAlert: []
   stanceChanges: []
   cameraMovements: []
@@ -5052,6 +5053,7 @@ MonoBehaviour:
       z:
         _serializedValue: 373404160
   lockOnTargets: []
+  switchCharacterOptions: []
   invincibleBodyParts: []
   stateOverride: []
   armorOptions:
@@ -5082,3 +5084,4 @@ MonoBehaviour:
     damageAbsorption: 0
     nonAffectedBodyParts: 
   projectiles: []
+  rotationPreview: {x: 0, y: 90, z: 0}

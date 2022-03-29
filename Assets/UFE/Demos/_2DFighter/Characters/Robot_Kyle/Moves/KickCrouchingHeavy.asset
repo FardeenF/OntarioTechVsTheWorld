@@ -5837,6 +5837,7 @@ MonoBehaviour:
   invertRotationLeft: 0
   invertRotationRight: 0
   autoCorrectRotation: 0
+  allowSideSwitch: 0
   frameWindowRotation: 0
   cooldown: 0
   cooldownFrames: 0
@@ -5846,8 +5847,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 40
   startUpFrames: 12
-  activeFrames: 3
-  recoveryFrames: 25
+  activeFrames: 4
+  recoveryFrames: 24
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -5873,7 +5874,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 08000000
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   altInputs:
@@ -6187,7 +6188,7 @@ MonoBehaviour:
     overrideEventsToggle: 1
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 0
+    hurtBoxesToggle: 1
     wallBounceToggle: 1
     groundBounceToggle: 0
     hurtBoxes:
