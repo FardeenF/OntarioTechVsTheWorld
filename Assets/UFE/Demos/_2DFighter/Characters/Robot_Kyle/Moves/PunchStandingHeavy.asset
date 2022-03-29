@@ -4448,7 +4448,7 @@ MonoBehaviour:
     basicMoveLimitation: 
     possibleMoveStates: []
     basicMovesToggle: 0
-    statesToggle: 1
+    statesToggle: 0
   selfConditions:
     basicMoveLimitation: 
     possibleMoveStates:
