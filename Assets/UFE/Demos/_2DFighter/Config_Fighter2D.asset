@@ -177,15 +177,11 @@ MonoBehaviour:
           possibleStagesIndexes: 00000000
         showOpponentsInEditor: 1
       showStoryInEditor: 1
-    selectableCharactersInStoryMode: 0100000000000000020000000300000004000000050000000600000007000000
-    selectableCharactersInVersusMode: 0000000001000000020000000300000004000000050000000600000007000000
+    selectableCharactersInStoryMode: 01000000000000000200000003000000040000000500000006000000
+    selectableCharactersInVersusMode: 00000000010000000200000003000000040000000500000006000000
     characterStories:
-      _keys: 0000000001000000020000000300000004000000050000000600000007000000
+      _keys: 00000000010000000200000003000000040000000500000006000000
       _values:
-      - opening: {fileID: 0}
-        ending: {fileID: 0}
-        fightsGroups: []
-        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -850,7 +846,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -995,7 +991,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1011,7 +1007,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -1234,10 +1230,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f0ed0d0ea0c86e24e8af99019d695928, type: 2}
   - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
-  - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
-  - {fileID: 11400000, guid: 0a64423579ca9884da9213834f617365, type: 2}
   - {fileID: 11400000, guid: 03c08c50112b95b40bfb570513145957, type: 2}
   - {fileID: 11400000, guid: 0d2f4e263ef939444ba5fe02100c36db, type: 2}
+  - {fileID: 11400000, guid: b9c0c2443ccc013418987c3bbd8a9d2a, type: 2}
   teamModes:
   - modeName: Tag Battle (DBZF\Marvel) - 2D 3v3 Tag Team
     teams:
