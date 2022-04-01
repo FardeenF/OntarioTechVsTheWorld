@@ -24,18 +24,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   selectedStage:
-    stageName: Music Stage
+    stageName: Classroom
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: c30c962de884ec145a904067960b3b85, type: 3}
-    prefab: {fileID: 43191549469336054, guid: b053131faf1614c4889f2c0efe198478, type: 3}
+    screenshot: {fileID: 2800000, guid: f7b30ad5d13eb06408900b4cb3dbe205, type: 3}
+    prefab: {fileID: 5081652000408185614, guid: ed24ae06d79739945a265b1759970807,
+      type: 3}
     music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -141733920768
+      _serializedValue: -163208757248
     _rightBoundary:
-      _serializedValue: 141733920768
+      _serializedValue: 163208757248
     position:
       x:
         _serializedValue: 0
@@ -150,20 +151,20 @@ MonoBehaviour:
             type: 3}
           conversationAfterBattle: {fileID: 11400004, guid: d9ebcacaabc5e44bba98188d32b0a703,
             type: 3}
-          opponentCharacterIndex: 2
-          possibleStagesIndexes: 00000000
+          opponentCharacterIndex: 7
+          possibleStagesIndexes: 01000000
         - conversationBeforeBattle: {fileID: 11400004, guid: 9994f2f4c6d0c4bbaadbe0fd864bec81,
             type: 3}
           conversationAfterBattle: {fileID: 11400004, guid: d9ebcacaabc5e44bba98188d32b0a703,
             type: 3}
-          opponentCharacterIndex: 1
-          possibleStagesIndexes: 00000000
+          opponentCharacterIndex: 7
+          possibleStagesIndexes: 03000000
         - conversationBeforeBattle: {fileID: 11400004, guid: 9994f2f4c6d0c4bbaadbe0fd864bec81,
             type: 3}
           conversationAfterBattle: {fileID: 11400004, guid: d9ebcacaabc5e44bba98188d32b0a703,
             type: 3}
-          opponentCharacterIndex: 3
-          possibleStagesIndexes: 00000000
+          opponentCharacterIndex: 7
+          possibleStagesIndexes: 03000000
         showOpponentsInEditor: 1
       - maxFights: 4
         mode: 2
@@ -173,8 +174,8 @@ MonoBehaviour:
             type: 3}
           conversationAfterBattle: {fileID: 11400004, guid: d9ebcacaabc5e44bba98188d32b0a703,
             type: 3}
-          opponentCharacterIndex: 0
-          possibleStagesIndexes: 00000000
+          opponentCharacterIndex: 7
+          possibleStagesIndexes: 02000000
         showOpponentsInEditor: 1
       showStoryInEditor: 1
     selectableCharactersInStoryMode: 01000000000000000200000003000000040000000500000006000000
@@ -862,7 +863,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1664,9 +1665,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 0
     synchronizationAction: 0
   music: 1
-  musicVolume: 1
+  musicVolume: 0.09389763
   soundfx: 1
-  soundfxVolume: 1
+  soundfxVolume: 0.5178182
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

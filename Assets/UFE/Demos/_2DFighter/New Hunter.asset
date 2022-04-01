@@ -220,7 +220,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 1
+        editorToggle: 0
         soundEffectsToggle: 0
       moveForward:
         animMap:
@@ -752,7 +752,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 1
+        editorToggle: 0
         soundEffectsToggle: 0
       jumpStraight:
         animMap:
@@ -859,7 +859,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 1
+        editorToggle: 0
         soundEffectsToggle: 0
       jumpBack:
         animMap:
@@ -1178,7 +1178,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 1
+        editorToggle: 0
         soundEffectsToggle: 0
       fallBack:
         animMap:
@@ -1494,7 +1494,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 1
+        editorToggle: 0
         soundEffectsToggle: 0
       blockingCrouchingPose:
         animMap:
@@ -3804,7 +3804,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 1
+        editorToggle: 0
         soundEffectsToggle: 0
       getHitHighKnockdown:
         animMap:
@@ -4329,7 +4329,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 1
+        editorToggle: 0
         soundEffectsToggle: 0
       getHitSweep:
         animMap:
@@ -5499,6 +5499,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 6139e0885da24aa45ac971d2a0b7bf50, type: 2}
     - {fileID: 11400000, guid: 4e8f4d5bb1bf51d4fa838370ec3fa940, type: 2}
     - {fileID: 11400000, guid: b9421851888c52f4aacd8a9938839624, type: 2}
+    - {fileID: 11400000, guid: 1f7fad864a8b45c41b8b54934586ba58, type: 2}
     enabledBasicMovesToggle: 0
     basicMovesToggle: 1
     attackMovesToggle: 1
