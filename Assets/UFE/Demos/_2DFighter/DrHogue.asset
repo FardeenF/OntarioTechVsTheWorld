@@ -5504,4 +5504,6 @@ MonoBehaviour:
     enabledBasicMovesToggle: 0
     basicMovesToggle: 1
     attackMovesToggle: 1
-  aiInstructionsSet: []
+  aiInstructionsSet:
+  - aiInfo: {fileID: 11400000, guid: 388fce0a954ca8544a84bdd1c4b66fba, type: 2}
+    behavior: 3
