@@ -678,4 +678,4 @@ MonoBehaviour:
     damageAbsorption: 0
     nonAffectedBodyParts: 
   projectiles: []
-  rotationPreview: {x: 0, y: 58.38, z: 0}
+  rotationPreview: {x: 0, y: 90, z: 0}

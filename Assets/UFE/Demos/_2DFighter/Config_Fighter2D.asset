@@ -24,19 +24,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   selectedStage:
-    stageName: Classroom
+    stageName: Game Lab
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: f7b30ad5d13eb06408900b4cb3dbe205, type: 3}
-    prefab: {fileID: 5081652000408185614, guid: ed24ae06d79739945a265b1759970807,
+    screenshot: {fileID: 2800000, guid: 1eeac2b1fb2981d42b331b04035cfd36, type: 3}
+    prefab: {fileID: 5060747415993636074, guid: 7b45560972d11464bbac611badc062d1,
       type: 3}
     music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -163208757248
+      _serializedValue: -138727440384
     _rightBoundary:
-      _serializedValue: 163208757248
+      _serializedValue: 138727440384
     position:
       x:
         _serializedValue: 0
@@ -147,39 +147,32 @@ MonoBehaviour:
         mode: 2
         name: Random Fights
         opponents:
-        - conversationBeforeBattle: {fileID: 11400004, guid: 9994f2f4c6d0c4bbaadbe0fd864bec81,
-            type: 3}
-          conversationAfterBattle: {fileID: 11400004, guid: d9ebcacaabc5e44bba98188d32b0a703,
-            type: 3}
-          opponentCharacterIndex: 7
+        - conversationBeforeBattle: {fileID: 0}
+          conversationAfterBattle: {fileID: 0}
+          opponentCharacterIndex: 5
           possibleStagesIndexes: 01000000
-        - conversationBeforeBattle: {fileID: 11400004, guid: 9994f2f4c6d0c4bbaadbe0fd864bec81,
-            type: 3}
-          conversationAfterBattle: {fileID: 11400004, guid: d9ebcacaabc5e44bba98188d32b0a703,
-            type: 3}
-          opponentCharacterIndex: 7
-          possibleStagesIndexes: 03000000
-        - conversationBeforeBattle: {fileID: 11400004, guid: 9994f2f4c6d0c4bbaadbe0fd864bec81,
-            type: 3}
-          conversationAfterBattle: {fileID: 11400004, guid: d9ebcacaabc5e44bba98188d32b0a703,
-            type: 3}
-          opponentCharacterIndex: 7
-          possibleStagesIndexes: 03000000
         showOpponentsInEditor: 1
       - maxFights: 4
         mode: 2
-        name: Boss Fight
+        name: Hogue
         opponents:
-        - conversationBeforeBattle: {fileID: 11400004, guid: 9994f2f4c6d0c4bbaadbe0fd864bec81,
-            type: 3}
-          conversationAfterBattle: {fileID: 11400004, guid: d9ebcacaabc5e44bba98188d32b0a703,
-            type: 3}
-          opponentCharacterIndex: 7
+        - conversationBeforeBattle: {fileID: 0}
+          conversationAfterBattle: {fileID: 0}
+          opponentCharacterIndex: 4
           possibleStagesIndexes: 02000000
         showOpponentsInEditor: 1
+      - maxFights: 4
+        mode: 2
+        name: Old Hunter
+        opponents:
+        - conversationBeforeBattle: {fileID: 0}
+          conversationAfterBattle: {fileID: 0}
+          opponentCharacterIndex: 6
+          possibleStagesIndexes: 00000000
+        showOpponentsInEditor: 1
       showStoryInEditor: 1
-    selectableCharactersInStoryMode: 01000000000000000200000003000000040000000500000006000000
-    selectableCharactersInVersusMode: 00000000010000000200000003000000040000000500000006000000
+    selectableCharactersInStoryMode: 03000000040000000500000006000000
+    selectableCharactersInVersusMode: 03000000040000000500000006000000
     characterStories:
       _keys: 00000000010000000200000003000000040000000500000006000000
       _values:
@@ -863,7 +856,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1230,10 +1223,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
   - {fileID: 11400000, guid: f0ed0d0ea0c86e24e8af99019d695928, type: 2}
   - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
-  - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   - {fileID: 11400000, guid: 03c08c50112b95b40bfb570513145957, type: 2}
   - {fileID: 11400000, guid: 0d2f4e263ef939444ba5fe02100c36db, type: 2}
   - {fileID: 11400000, guid: b9c0c2443ccc013418987c3bbd8a9d2a, type: 2}
+  - {fileID: 11400000, guid: 5d2ac77a374756a4687ace78846775c9, type: 2}
   teamModes:
   - modeName: Tag Battle (DBZF\Marvel) - 2D 3v3 Tag Team
     teams:
@@ -1528,9 +1521,9 @@ MonoBehaviour:
       attackProbability: 0
     multiCoreSupport: 1
     persistentBehavior: 0
-    difficultyToggle: 0
+    difficultyToggle: 1
     difficultySettings:
-    - difficultyLevel: 0
+    - difficultyLevel: 1
       overrideTimeBetweenDecisions: 1
       timeBetweenDecisions: 0.4
       overrideTimeBetweenActions: 1
@@ -1602,19 +1595,19 @@ MonoBehaviour:
       overrideComboEfficiency: 1
       comboEfficiency: 1
       startupBehavior: 4
-    selectedDifficultyLevel: 0
+    selectedDifficultyLevel: 2
     selectedDifficulty:
-      difficultyLevel: 0
-      overrideTimeBetweenDecisions: 1
-      timeBetweenDecisions: 0.4
-      overrideTimeBetweenActions: 1
-      timeBetweenActions: 0.1
-      overrideAggressiveness: 1
-      aggressiveness: 0.1
+      difficultyLevel: 2
+      overrideTimeBetweenDecisions: 0
+      timeBetweenDecisions: 0
+      overrideTimeBetweenActions: 0
+      timeBetweenActions: 0.05
+      overrideAggressiveness: 0
+      aggressiveness: 0.4
       overrideRuleCompliance: 0
       ruleCompliance: 0.9
-      overrideComboEfficiency: 1
-      comboEfficiency: 0.1
+      overrideComboEfficiency: 0
+      comboEfficiency: 1
       startupBehavior: 3
   networkOptions:
     forceAnimationControl: 1
@@ -1665,9 +1658,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 0
     synchronizationAction: 0
   music: 1
-  musicVolume: 0.09389763
+  musicVolume: 1
   soundfx: 1
-  soundfxVolume: 0.5178182
+  soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

@@ -249,9 +249,9 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 42949672960
+        _serializedValue: 17179869184
       y:
-        _serializedValue: 0
+        _serializedValue: 171798691840
       z:
         _serializedValue: 0
     _pushForceAir:

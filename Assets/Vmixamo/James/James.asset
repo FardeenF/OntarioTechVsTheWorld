@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: James
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: a5f40b2d2e3085d4d86752233a9314c8, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: a5f40b2d2e3085d4d86752233a9314c8, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: 7ffbc9703cbcf9f47858ae8eabf56263, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: 7c53499204b57c545a1248c254f5669d, type: 3}
   characterName: James
   gender: 1
   characterDescription: 
@@ -5508,4 +5508,6 @@ MonoBehaviour:
     enabledBasicMovesToggle: 0
     basicMovesToggle: 1
     attackMovesToggle: 1
-  aiInstructionsSet: []
+  aiInstructionsSet:
+  - aiInfo: {fileID: 11400000, guid: 0cbb4bf9fc37e2540a4b1900a715cbb1, type: 2}
+    behavior: 3
