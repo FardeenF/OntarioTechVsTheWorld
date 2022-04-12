@@ -149,11 +149,11 @@ MonoBehaviour:
     _gaugeGainOnBlock:
       _serializedValue: 23192823808
     _opGaugeGainOnBlock:
-      _serializedValue: 35648229376
+      _serializedValue: 25769803776
     _opGaugeGainOnParry:
-      _serializedValue: 52398600192
+      _serializedValue: 21045340160
     _opGaugeGainOnHit:
-      _serializedValue: 27058294784
+      _serializedValue: 25769803776
     DCMove: {fileID: 0}
     DCStance: 0
     editorToggle: 0
