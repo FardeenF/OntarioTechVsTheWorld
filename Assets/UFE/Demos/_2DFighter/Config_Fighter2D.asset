@@ -165,7 +165,7 @@ MonoBehaviour:
         showOpponentsInEditor: 1
       showStoryInEditor: 1
     selectableCharactersInStoryMode: 03000000040000000500000006000000
-    selectableCharactersInVersusMode: 0300000004000000050000000600000000000000
+    selectableCharactersInVersusMode: 03000000040000000500000006000000
     characterStories:
       _keys: 00000000010000000200000003000000040000000500000006000000
       _values:
@@ -849,7 +849,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -994,7 +994,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
