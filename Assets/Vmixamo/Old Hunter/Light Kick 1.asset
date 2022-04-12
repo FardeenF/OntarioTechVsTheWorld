@@ -128,7 +128,35 @@ MonoBehaviour:
     anyHitType: 1
     anyHitConfirmType: 1
   frameLinks: []
-  gauges: []
+  gauges:
+  - castingFrame: 0
+    targetGauge: 0
+    startDrainingGauge: 0
+    inhibitGainWhileDraining: 0
+    stopDrainingGauge: 0
+    _gaugeDPS:
+      _serializedValue: 0
+    _totalDrain:
+      _serializedValue: 0
+    _gaugeRequired:
+      _serializedValue: 0
+    _gaugeUsage:
+      _serializedValue: 0
+    _gaugeGainOnMiss:
+      _serializedValue: 0
+    _gaugeGainOnHit:
+      _serializedValue: 34359738368
+    _gaugeGainOnBlock:
+      _serializedValue: 34359738368
+    _opGaugeGainOnBlock:
+      _serializedValue: 21474836480
+    _opGaugeGainOnParry:
+      _serializedValue: 21474836480
+    _opGaugeGainOnHit:
+      _serializedValue: 21474836480
+    DCMove: {fileID: 0}
+    DCStance: 0
+    editorToggle: 0
   sortOrder: []
   particleEffects: []
   appliedForces: []

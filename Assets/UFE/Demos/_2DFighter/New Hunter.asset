@@ -26,7 +26,7 @@ MonoBehaviour:
   age: 0
   bloodType: Unknown
   lifePoints: 1000
-  maxGaugePoints: 0
+  maxGaugePoints: 1000
   characterPrefabStorage: 0
   characterPrefab: {fileID: 7854144555227013378, guid: 8e2bc45a2c17cb648a1e892caa186660,
     type: 3}
@@ -96,7 +96,7 @@ MonoBehaviour:
     disableCrouch: 0
     jumpButton: 2
     crouchButton: 3
-  hideGauges: 00000000000000000000
+  hideGauges: 00010000000000000000
   _executionTiming:
     _serializedValue: 1288490240
   possibleAirMoves: 1

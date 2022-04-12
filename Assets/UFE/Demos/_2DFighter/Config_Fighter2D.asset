@@ -142,31 +142,22 @@ MonoBehaviour:
       opening: {fileID: 11400004, guid: 40c65adfe829a4a59bf7fc39d9560079, type: 3}
       ending: {fileID: 11400004, guid: bb6bf06c538904fd8bce94fe3390c7e4, type: 3}
       fightsGroups:
-      - maxFights: 3
+      - maxFights: 4
         mode: 2
-        name: Random Fights
+        name: Group 4
         opponents:
-        - conversationBeforeBattle: {fileID: 0}
-          conversationAfterBattle: {fileID: 4662258326546545634, guid: 05e0423dc7bd95a40a133002f0189b51,
+        - conversationBeforeBattle: {fileID: 4662258326546545634, guid: 05e0423dc7bd95a40a133002f0189b51,
             type: 3}
+          conversationAfterBattle: {fileID: 0}
           opponentCharacterIndex: 5
           possibleStagesIndexes: 01000000
-        showOpponentsInEditor: 1
-      - maxFights: 4
-        mode: 2
-        name: Hogue
-        opponents:
-        - conversationBeforeBattle: {fileID: 0}
-          conversationAfterBattle: {fileID: 4662258326546545634, guid: 875fecce774d00c41a55990e823a93dd,
+        - conversationBeforeBattle: {fileID: 4662258326546545634, guid: 875fecce774d00c41a55990e823a93dd,
             type: 3}
+          conversationAfterBattle: {fileID: 0}
           opponentCharacterIndex: 4
           possibleStagesIndexes: 02000000
-        showOpponentsInEditor: 1
-      - maxFights: 4
-        mode: 2
-        name: Old Hunter
-        opponents:
-        - conversationBeforeBattle: {fileID: 0}
+        - conversationBeforeBattle: {fileID: 8131714883006195821, guid: 9bd906a5cc0983d4c9c5547ddb63c9ed,
+            type: 3}
           conversationAfterBattle: {fileID: 4662258326546545634, guid: 4defd61c1bbf6a941bee1fdc49270ba9,
             type: 3}
           opponentCharacterIndex: 6
@@ -174,7 +165,7 @@ MonoBehaviour:
         showOpponentsInEditor: 1
       showStoryInEditor: 1
     selectableCharactersInStoryMode: 03000000040000000500000006000000
-    selectableCharactersInVersusMode: 03000000040000000500000006000000
+    selectableCharactersInVersusMode: 0300000004000000050000000600000000000000
     characterStories:
       _keys: 00000000010000000200000003000000040000000500000006000000
       _values:

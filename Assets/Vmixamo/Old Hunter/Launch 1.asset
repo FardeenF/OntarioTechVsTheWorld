@@ -101,9 +101,21 @@ MonoBehaviour:
     statesToggle: 0
   selfConditions:
     basicMoveLimitation: 
-    possibleMoveStates: []
+    possibleMoveStates:
+    - possibleState: 0
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 0
+      proximityRangeBegins: 0
+      proximityRangeEnds: 100
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      stunned: 0
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   moveClassification:
     attackType: 0
     hitType: 0
@@ -127,21 +139,21 @@ MonoBehaviour:
     _totalDrain:
       _serializedValue: 0
     _gaugeRequired:
-      _serializedValue: 0
+      _serializedValue: 214748364800
     _gaugeUsage:
-      _serializedValue: 0
+      _serializedValue: 214748364800
     _gaugeGainOnMiss:
       _serializedValue: 0
     _gaugeGainOnHit:
-      _serializedValue: 0
+      _serializedValue: 64424509440
     _gaugeGainOnBlock:
-      _serializedValue: 0
+      _serializedValue: 64424509440
     _opGaugeGainOnBlock:
-      _serializedValue: 0
+      _serializedValue: 64424509440
     _opGaugeGainOnParry:
-      _serializedValue: 0
+      _serializedValue: 64424509440
     _opGaugeGainOnHit:
-      _serializedValue: 0
+      _serializedValue: 85899345920
     DCMove: {fileID: 0}
     DCStance: 0
     editorToggle: 0
@@ -948,7 +960,7 @@ MonoBehaviour:
     spaceBetweenHits: 0
     totalHits: 1
     resetPreviousHitStun: 1
-    hitStunOnHit: 30
+    hitStunOnHit: 80
     hitStunOnBlock: 10
     overrideHitEffects: 0
     fixRotation: 1
@@ -978,9 +990,9 @@ MonoBehaviour:
     downHit: 1
     damageType: 1
     _damageOnHit:
-      _serializedValue: 171798691840
+      _serializedValue: 429496729600
     _damageOnBlock:
-      _serializedValue: 0
+      _serializedValue: 85899345920
     damageScaling: 0
     obeyDirectionalHit: 1
     hitEffectsOnHit: 1

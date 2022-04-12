@@ -153,7 +153,7 @@ MonoBehaviour:
     anyHitConfirmType: 1
   frameLinks: []
   gauges:
-  - castingFrame: 0
+  - castingFrame: 7
     targetGauge: 0
     startDrainingGauge: 0
     inhibitGainWhileDraining: 0
@@ -167,7 +167,7 @@ MonoBehaviour:
     _gaugeUsage:
       _serializedValue: 0
     _gaugeGainOnMiss:
-      _serializedValue: 0
+      _serializedValue: 79027396608
     _gaugeGainOnHit:
       _serializedValue: 20186345472
     _gaugeGainOnBlock:

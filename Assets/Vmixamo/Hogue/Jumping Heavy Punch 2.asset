@@ -133,7 +133,7 @@ MonoBehaviour:
     _gaugeGainOnMiss:
       _serializedValue: 0
     _gaugeGainOnHit:
-      _serializedValue: 15461881856
+      _serializedValue: 26628796416
     _gaugeGainOnBlock:
       _serializedValue: 25769803776
     _opGaugeGainOnBlock:

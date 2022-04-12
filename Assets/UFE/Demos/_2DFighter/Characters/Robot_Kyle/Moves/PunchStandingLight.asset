@@ -2129,7 +2129,7 @@ MonoBehaviour:
     opponentConditions:
       basicMoveLimitation: 
       possibleMoveStates: []
-      basicMovesToggle: 0
+      basicMovesToggle: 1
       statesToggle: 0
     downHit: 0
     resetPreviousHitStun: 0
@@ -2321,7 +2321,7 @@ MonoBehaviour:
     selfForceToggle: 0
     stageReactionsToggle: 1
     overrideEventsToggle: 1
-    hitConditionsToggle: 0
+    hitConditionsToggle: 1
     pullInToggle: 0
     hurtBoxesToggle: 1
     wallBounceToggle: 0

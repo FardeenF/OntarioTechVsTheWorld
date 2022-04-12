@@ -101,9 +101,21 @@ MonoBehaviour:
     statesToggle: 0
   selfConditions:
     basicMoveLimitation: 
-    possibleMoveStates: []
+    possibleMoveStates:
+    - possibleState: 0
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 0
+      proximityRangeBegins: 0
+      proximityRangeEnds: 100
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      stunned: 0
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   moveClassification:
     attackType: 0
     hitType: 0
@@ -127,13 +139,13 @@ MonoBehaviour:
     _totalDrain:
       _serializedValue: 0
     _gaugeRequired:
-      _serializedValue: 0
+      _serializedValue: 214748364800
     _gaugeUsage:
-      _serializedValue: 0
+      _serializedValue: 214748364800
     _gaugeGainOnMiss:
       _serializedValue: 0
     _gaugeGainOnHit:
-      _serializedValue: 0
+      _serializedValue: 64424509440
     _gaugeGainOnBlock:
       _serializedValue: 0
     _opGaugeGainOnBlock:
@@ -265,17 +277,17 @@ MonoBehaviour:
     hitStrength: 2
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 257698037760
+      _serializedValue: 128849018880
     _hitStunOnBlock:
-      _serializedValue: 51539607552
+      _serializedValue: 85899345920
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
     damageType: 1
     _damageOnHit:
-      _serializedValue: 257698037760
+      _serializedValue: 214748364800
     _damageOnBlock:
-      _serializedValue: 85899345920
+      _serializedValue: 171798691840
     doesntKill: 0
     hitType: 3
     resetPreviousHorizontalPush: 1
@@ -386,7 +398,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 0
+    damageOptionsToggle: 1
     hitStunOptionsToggle: 1
     forceOptionsToggle: 1
     opponentForceToggle: 1
@@ -948,7 +960,7 @@ MonoBehaviour:
     spaceBetweenHits: 0
     totalHits: 1
     resetPreviousHitStun: 1
-    hitStunOnHit: 30
+    hitStunOnHit: 80
     hitStunOnBlock: 10
     overrideHitEffects: 0
     fixRotation: 1
@@ -978,9 +990,9 @@ MonoBehaviour:
     downHit: 1
     damageType: 1
     _damageOnHit:
-      _serializedValue: 171798691840
+      _serializedValue: 515396075520
     _damageOnBlock:
-      _serializedValue: 0
+      _serializedValue: 85899345920
     damageScaling: 0
     obeyDirectionalHit: 1
     hitEffectsOnHit: 1
