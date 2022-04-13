@@ -153,8 +153,7 @@ MonoBehaviour:
           possibleStagesIndexes: 01000000
         - conversationBeforeBattle: {fileID: 4662258326546545634, guid: 875fecce774d00c41a55990e823a93dd,
             type: 3}
-          conversationAfterBattle: {fileID: 4662258326546545634, guid: 4defd61c1bbf6a941bee1fdc49270ba9,
-            type: 3}
+          conversationAfterBattle: {fileID: 0}
           opponentCharacterIndex: 4
           possibleStagesIndexes: 02000000
         - conversationBeforeBattle: {fileID: 8131714883006195821, guid: 9bd906a5cc0983d4c9c5547ddb63c9ed,
@@ -833,7 +832,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
