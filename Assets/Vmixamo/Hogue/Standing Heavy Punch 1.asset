@@ -27,8 +27,8 @@ MonoBehaviour:
   wrapMode: 0
   characterPrefab: {fileID: 15152662684503870, guid: 8a7b3260e152ff248a3ad53b10048a5b,
     type: 3}
-  moveName: Standing Heavy Punch
-  description: Standing Heavy Punch
+  moveName: Standing Heavy Punch 2
+  description: Stnading Heavy Punch 2
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
@@ -102,7 +102,19 @@ MonoBehaviour:
     statesToggle: 0
   selfConditions:
     basicMoveLimitation: 
-    possibleMoveStates: []
+    possibleMoveStates:
+    - possibleState: 0
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 0
+      proximityRangeBegins: 0
+      proximityRangeEnds: 100
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      stunned: 0
     basicMovesToggle: 0
     statesToggle: 0
   moveClassification:

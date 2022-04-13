@@ -5501,6 +5501,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 6cd165a972394b641b442754eeaf6790, type: 2}
     - {fileID: 11400000, guid: 404a8b6bc66f34544ab72a4902a2a8ad, type: 2}
     - {fileID: 11400000, guid: 635e75274f868414b9edca45abdca206, type: 2}
+    - {fileID: 11400000, guid: ad98fc36755b68448ac644bca3a8bd67, type: 2}
     enabledBasicMovesToggle: 0
     basicMovesToggle: 1
     attackMovesToggle: 1
