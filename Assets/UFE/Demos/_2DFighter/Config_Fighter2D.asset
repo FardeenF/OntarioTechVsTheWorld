@@ -1635,7 +1635,7 @@ MonoBehaviour:
     lanDiscoverySearchInterval: 5
     lanDiscoverySearchTimeout: 120
     allowRollBacks: 1
-    rollbackBalancing: 2
+    rollbackBalancing: 1
     frameDelayType: 1
     minFrameDelay: 2
     maxFrameDelay: 4

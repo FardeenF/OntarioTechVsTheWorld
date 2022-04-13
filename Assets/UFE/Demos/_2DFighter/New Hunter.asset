@@ -96,7 +96,7 @@ MonoBehaviour:
     disableCrouch: 0
     jumpButton: 2
     crouchButton: 3
-  hideGauges: 00010000000000000000
+  hideGauges: 00000000000000000000
   _executionTiming:
     _serializedValue: 1288490240
   possibleAirMoves: 1
