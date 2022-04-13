@@ -48,7 +48,7 @@ MonoBehaviour:
   totalFrames: 65
   startUpFrames: 19
   activeFrames: 7
-  recoveryFrames: 50
+  recoveryFrames: 39
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -428,7 +428,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 4294967296
+        _serializedValue: 8589934592
       _rect:
         _x:
           _serializedValue: 0

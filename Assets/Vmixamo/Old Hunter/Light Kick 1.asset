@@ -384,7 +384,7 @@ MonoBehaviour:
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 0
+    hurtBoxesToggle: 1
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
@@ -400,7 +400,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 2147483648
+        _serializedValue: 8589934592
       _rect:
         _x:
           _serializedValue: 0
@@ -456,7 +456,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 2147483648
+        _serializedValue: 4294967296
       _rect:
         _x:
           _serializedValue: 0
@@ -512,7 +512,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 2147483648
+        _serializedValue: 4294967296
       _rect:
         _x:
           _serializedValue: 0

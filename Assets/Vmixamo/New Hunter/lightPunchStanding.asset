@@ -460,7 +460,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 8589934592
+        _serializedValue: 4294967296
       _rect:
         _x:
           _serializedValue: 0
@@ -516,7 +516,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 8589934592
+        _serializedValue: 4294967296
       _rect:
         _x:
           _serializedValue: 0
