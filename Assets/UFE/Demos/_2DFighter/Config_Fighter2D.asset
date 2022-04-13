@@ -1614,7 +1614,7 @@ MonoBehaviour:
     postRollbackRecording: 1
     generateVariableLog: 1
     textFilePath: VariableLog.txt
-    networkService: 2
+    networkService: 1
     authKey: 
     lobbies:
     - lobbyName: 
