@@ -9,8 +9,7 @@
     "precompiledReferences": [
         "AForge.Core.dll",
         "AI4Unity.Fuzzy.dll",
-        "AForge.Fuzzy.dll",
-        "SoarSDK.dll"
+        "AForge.Fuzzy.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],

@@ -24,18 +24,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   selectedStage:
-    stageName: Music Stage
+    stageName: Classroom
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: c30c962de884ec145a904067960b3b85, type: 3}
-    prefab: {fileID: 43191549469336054, guid: b053131faf1614c4889f2c0efe198478, type: 3}
+    screenshot: {fileID: 2800000, guid: f7b30ad5d13eb06408900b4cb3dbe205, type: 3}
+    prefab: {fileID: 5081652000408185614, guid: ed24ae06d79739945a265b1759970807,
+      type: 3}
     music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -141733920768
+      _serializedValue: -163208757248
     _rightBoundary:
-      _serializedValue: 141733920768
+      _serializedValue: 163208757248
     position:
       x:
         _serializedValue: 0
@@ -849,7 +850,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -978,7 +979,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -994,7 +995,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
